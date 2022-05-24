@@ -1,0 +1,25 @@
+.board-container {
+    background-color: #bbada0;
+    width: 92vmin;
+    height: 92vmin;
+    border-radius: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#board {
+    display: grid;
+    background-color: #bbada0;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 1vmin;
+    width: 90vmin;
+    height: 90vmin;
+    border-radius: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
